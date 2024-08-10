@@ -1,0 +1,32 @@
+
+
+
+main input {
+  width: 20%; 
+  height: 20px; 
+  resize: vertical; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  /* border-radius: 5px;  */
+  font-family: "Wix Madefor Display", sans-serif;
+  
+}
+
+button[type="submit"] {
+  
+  color: white; 
+  padding: 10px;
+  border: none;
+  /* border-radius: 5px; */
+  height: 42px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 6, 7);
+  width: 15%;
+  margin-bottom: 2%;
+}
+
+.commentForm button[type="submit"]:hover {
+  background-color: rgb(0, 40, 60); /* Darken background color on hover */
+}

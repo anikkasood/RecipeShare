@@ -1,0 +1,40 @@
+.commentForm{
+	margin-top: 50px;
+    display: flex;
+    /* gap: 10px; */
+	padding-left: 2%;
+	padding-right: 2%;
+    background-color: rgba(209, 229, 245, 0.482);
+	font-family: "Wix Madefor Display", sans-serif;
+	font-weight: 550;
+}
+
+
+textarea {
+  width: 100%; 
+  height: 20px; 
+  resize: vertical; 
+  margin-bottom: 10px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  /* border-radius: 5px;  */
+  font-family: "Wix Madefor Display", sans-serif;
+  
+}
+
+.commentForm button[type="submit"] {
+  
+  color: white; 
+  padding: 10px;
+  border: none;
+  /* border-radius: 5px; */
+  height: 42px;
+  font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 500;
+  background-color: rgb(0, 6, 7);
+  width: 15%;
+}
+
+.commentForm button[type="submit"]:hover {
+  background-color: rgb(0, 40, 60); /* Darken background color on hover */
+}
